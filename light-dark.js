@@ -12,7 +12,7 @@ const toggleButton = document.getElementById('theme-toggle');
     const isDark = document.body.classList.toggle('dark-mode');
 
     // icon switcher
-    themeIcon.textContent = isDark ? '🌙' : '🌞';
+    themeIcon.textContent = isDark ? '🌙' : '☀️';
 
     // save
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
